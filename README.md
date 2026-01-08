@@ -16,3 +16,4 @@ O projeto está organizado para refletir o fluxo real de um Analista de Dados:
 
 ## 🗂️ Como navegar
 - `/01_auditoria`: Scripts de validação e integridade de dados.
+- `/02_analises`: Análise de indicadores sociais e demográficos (Uso de `UNION` e `IN`).
