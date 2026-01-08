@@ -29,3 +29,5 @@ O projeto está organizado para refletir o fluxo real de um Analista de Dados:
 - **Expectativa de Vida:** Comparativo histórico (1990-2010) com `LEFT JOIN`, `NULLIF` e `LIMIT`.
 - **Mortalidade Brasil:** Análise de tendência decenal usando operador de módulo `%`.
 - **Renda vs PIB:** Correlação de indicadores econômicos e produtividade através de `JOINS` múltiplos.
+- **Benchmark Dinâmico:** Uso de `EXISTS` para comparar o gap educacional de países da ALC em relação ao Brasil (Subquery Correlacionada).
+- **Detecção de Anomalias:** Identificação de inversão de gap de gênero em países africanos usando lógica aritmética entre bases distintas.
