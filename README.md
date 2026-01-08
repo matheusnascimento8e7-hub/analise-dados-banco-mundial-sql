@@ -22,10 +22,10 @@ O projeto está organizado para refletir o fluxo real de um Analista de Dados:
 
 ### 📁 02. Análise de Indicadores Sociais
 - **Scripts:** Comparativo de escolaridade nos BRICS (Gênero).
-- **Técnicas:** `UNION`, `IN`, Colunas Categóricas.
+- **Técnicas:** `UNION`, `IN`, Colunas Categóricas e Joins.
 
 ### 📁 03. Lógica Avançada e Business Intelligence
-- **Maior PIB África:** Identificação de outliers regionais usando `Subqueries`.
-- **Expectativa de Vida:** Comparativo histórico (1990-2010) com `NULLIF` e `LIMIT`.
+- **Maior PIB África:** Identificação de outliers regionais usando `Subqueries` e `INNER JOIN`.
+- **Expectativa de Vida:** Comparativo histórico (1990-2010) com `LEFT JOIN`, `NULLIF` e `LIMIT`.
 - **Mortalidade Brasil:** Análise de tendência decenal usando operador de módulo `%`.
-- **Renda vs PIB:** Correlação de indicadores econômicos e produtividade.
+- **Renda vs PIB:** Correlação de indicadores econômicos e produtividade através de `JOINS` múltiplos.
