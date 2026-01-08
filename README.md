@@ -14,6 +14,18 @@ O projeto está organizado para refletir o fluxo real de um Analista de Dados:
 2. **Análise de Indicadores Sociais:** Cruzamento de escolaridade e expectativa de vida.
 3. **Lógica Avançada:** Uso de Subqueries e Operadores de Existência para benchmarks regionais.
 
-## 🗂️ Como navegar
-- `/01_auditoria`: Scripts de validação e integridade de dados.
-- `/02_analises`: Análise de indicadores sociais e demográficos (Uso de `UNION` e `IN`).
+## 🗂️ Estrutura do Repositório
+
+### 📁 01. Auditoria e Integridade
+- **Scripts:** Validação de consistência entre bases de fertilidade e mortalidade.
+- **Técnicas:** `EXCEPT`, `ORDER BY`.
+
+### 📁 02. Análise de Indicadores Sociais
+- **Scripts:** Comparativo de escolaridade nos BRICS (Gênero).
+- **Técnicas:** `UNION`, `IN`, Colunas Categóricas.
+
+### 📁 03. Lógica Avançada e Business Intelligence
+- **Maior PIB África:** Identificação de outliers regionais usando `Subqueries`.
+- **Expectativa de Vida:** Comparativo histórico (1990-2010) com `NULLIF` e `LIMIT`.
+- **Mortalidade Brasil:** Análise de tendência decenal usando operador de módulo `%`.
+- **Renda vs PIB:** Correlação de indicadores econômicos e produtividade.
